@@ -69,6 +69,7 @@ Terminology
 
 Current build status
 ====================
+
 Linux: [![Circle CI](https://circleci.com/gh/conda-forge/configurable-http-proxy-feedstock.svg?style=svg)](https://circleci.com/gh/conda-forge/configurable-http-proxy-feedstock)
 OSX: [![TravisCI](https://travis-ci.org/conda-forge/configurable-http-proxy-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/configurable-http-proxy-feedstock) 
 Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/configurable-http-proxy-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/configurable-http-proxy-feedstock/branch/master)
