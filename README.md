@@ -11,6 +11,18 @@ Summary: node-http-proxy plus a REST API
 
 
 
+Current build status
+====================
+
+Linux: [![Circle CI](https://circleci.com/gh/conda-forge/configurable-http-proxy-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/configurable-http-proxy-feedstock)
+OSX: [![TravisCI](https://travis-ci.org/conda-forge/configurable-http-proxy-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/configurable-http-proxy-feedstock)
+Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/configurable-http-proxy-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/configurable-http-proxy-feedstock/branch/master)
+
+Current release info
+====================
+Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/configurable-http-proxy/badges/version.svg)](https://anaconda.org/conda-forge/configurable-http-proxy)
+Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/configurable-http-proxy/badges/downloads.svg)](https://anaconda.org/conda-forge/configurable-http-proxy)
+
 Installing configurable-http-proxy
 ==================================
 
@@ -31,7 +43,6 @@ It is possible to list all of the versions of `configurable-http-proxy` availabl
 ```
 conda search configurable-http-proxy --channel conda-forge
 ```
-
 
 
 About conda-forge
@@ -67,18 +78,6 @@ Terminology
 
 **conda-forge** - the place where the feedstock and smithy live and work to
                   produce the finished article (built conda distributions)
-
-Current build status
-====================
-
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/configurable-http-proxy-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/configurable-http-proxy-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/configurable-http-proxy-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/configurable-http-proxy-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/configurable-http-proxy-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/configurable-http-proxy-feedstock/branch/master)
-
-Current release info
-====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/configurable-http-proxy/badges/version.svg)](https://anaconda.org/conda-forge/configurable-http-proxy)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/configurable-http-proxy/badges/downloads.svg)](https://anaconda.org/conda-forge/configurable-http-proxy)
 
 
 Updating configurable-http-proxy-feedstock
