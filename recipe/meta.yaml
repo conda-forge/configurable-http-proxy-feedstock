@@ -27,6 +27,7 @@ test:
 about:
   home: https://github.com/jupyterhub/configurable-http-proxy
   license: BSD 3-Clause
+  license_file: COPYING.md
   summary: node-http-proxy plus a REST API
 
 extra:
