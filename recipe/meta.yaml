@@ -1,4 +1,4 @@
-{% set version = "2.0.0" %}
+{% set version = "2.0.1" %}
 {% set node_version = os.environ.get('NODEJS_VERSION') or '6.*' %}
 
 package:
@@ -8,7 +8,7 @@ package:
 source:
   fn: {{ version }}.tar.gz
   url: https://github.com/jupyterhub/configurable-http-proxy/archive/{{ version }}.tar.gz
-  sha256: f6baa9da7039d90ba295b0be6afe60d86b57ee588d1037190ac02d3a6231c97a
+  sha256: 3bc5638ab935fe5dfc89192fc9c2b2ab657da797999b234f92571b7b1dcb6627
 
 build:
   number: 0
