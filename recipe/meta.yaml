@@ -1,4 +1,4 @@
-{% set version = "2.0.4" %}
+{% set version = "3.0.0" %}
 {% set node_version = os.environ.get('NODEJS_VERSION') or '6.*' %}
 
 package:
@@ -8,7 +8,7 @@ package:
 source:
   fn: {{ version }}.tar.gz
   url: https://github.com/jupyterhub/configurable-http-proxy/archive/{{ version }}.tar.gz
-  sha256: fee6ce0a8f93288cc47a19498a51fcca050da54c166b3c3ea30032f8241045e8
+  sha256: 6573e2862830d0ba34ef51fef7c9a680dd064d92acc366bf382fc1a8100709fc
 
 build:
   number: 0
@@ -27,7 +27,7 @@ test:
 about:
   home: https://github.com/jupyterhub/configurable-http-proxy
   license: BSD 3-Clause
-  license_file: COPYING.md
+  license_file: LICENSE
   summary: node-http-proxy plus a REST API
 
 extra:
