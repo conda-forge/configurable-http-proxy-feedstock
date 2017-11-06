@@ -1,14 +1,15 @@
-{% set version = "3.0.0" %}
+{% set name = "configurable-http-proxy" %}
+{% set version = "3.1.0" %}
 {% set node_version = os.environ.get('NODEJS_VERSION') or '6.*' %}
 
 package:
-  name: configurable-http-proxy
+  name: {{ name }}
   version: {{ version }}
 
 source:
   fn: {{ version }}.tar.gz
-  url: https://github.com/jupyterhub/configurable-http-proxy/archive/{{ version }}.tar.gz
-  sha256: 6573e2862830d0ba34ef51fef7c9a680dd064d92acc366bf382fc1a8100709fc
+  url: https://registry.npmjs.org/{{ name }}/-/{{ name }}-{{ version }}.tgz
+  sha256: eb41627ed15505261dbbb48eb4b9f1c6cd31a884b0f1afa9001a671b67262ad0
 
 build:
   number: 0
