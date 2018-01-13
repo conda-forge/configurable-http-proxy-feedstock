@@ -16,7 +16,9 @@ source:
 build:
   number: {{ build }}
   string: "node{{node_major}}_{{ build}}"
-  script: npm install -g .
+  script: |
+    npm pack
+    npm install -g {{name}}-{{version}}.tgz
 
 requirements:
   build:
