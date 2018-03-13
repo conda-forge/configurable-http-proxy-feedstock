@@ -1,2 +1,2 @@
-npm pack
-npm install -g %PKG_NAME%-%PKG_VERSION%.tgz
+cmd /c %PREFIX%\npm.cmd pack
+cmd /c %PREFIX%\npm.cmd install -g %PKG_NAME%-%PKG_VERSION%.tgz
