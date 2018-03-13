@@ -9,16 +9,14 @@ package:
   version: {{ version }}
 
 source:
-  fn: {{ version }}.tar.gz
+  fn: {{ name }}-{{ version }}.tar.gz
   url: https://registry.npmjs.org/{{ name }}/-/{{ name }}-{{ version }}.tgz
   sha256: eb41627ed15505261dbbb48eb4b9f1c6cd31a884b0f1afa9001a671b67262ad0
 
 build:
   number: {{ build }}
   string: "node{{node_major}}_{{ build}}"
-  script: |
-    npm pack
-    npm install -g {{name}}-{{version}}.tgz
+  script: npm pack; npm install -g {{name}}-{{version}}.tgz  # [not win]
 
 requirements:
   build:
