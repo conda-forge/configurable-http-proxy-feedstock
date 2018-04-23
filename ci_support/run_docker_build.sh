@@ -40,6 +40,7 @@ cat << EOF | docker run -i \
                         -v "${RECIPE_ROOT}":/recipe_root \
                         -v "${FEEDSTOCK_ROOT}":/feedstock_root \
                         -e HOST_USER_ID="${HOST_USER_ID}" \
+                        -e NODEJS_VERSION="${NODEJS_VERSION}" \
                         -a stdin -a stdout -a stderr \
                         condaforge/linux-anvil \
                         bash || exit 1
