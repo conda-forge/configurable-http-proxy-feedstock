@@ -14,14 +14,16 @@ Summary: node-http-proxy plus a REST API
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/configurable-http-proxy-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/configurable-http-proxy-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/configurable-http-proxy-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/configurable-http-proxy-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/configurable-http-proxy-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/configurable-http-proxy-feedstock/branch/master)
+[![Linux](https://img.shields.io/circleci/project/github/conda-forge/configurable-http-proxy-feedstock/master.svg?label=Linux)](https://circleci.com/gh/conda-forge/configurable-http-proxy-feedstock)
+[![OSX](https://img.shields.io/travis/conda-forge/configurable-http-proxy-feedstock/master.svg?label=macOS)](https://travis-ci.org/conda-forge/configurable-http-proxy-feedstock)
+[![Windows](https://img.shields.io/appveyor/ci/conda-forge/configurable-http-proxy-feedstock/master.svg?label=Windows)](https://ci.appveyor.com/project/conda-forge/configurable-http-proxy-feedstock/branch/master)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/configurable-http-proxy/badges/version.svg)](https://anaconda.org/conda-forge/configurable-http-proxy)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/configurable-http-proxy/badges/downloads.svg)](https://anaconda.org/conda-forge/configurable-http-proxy)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-configurable--http--proxy-green.svg)](https://anaconda.org/conda-forge/configurable-http-proxy) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/configurable-http-proxy.svg)](https://anaconda.org/conda-forge/configurable-http-proxy) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/configurable-http-proxy.svg)](https://anaconda.org/conda-forge/configurable-http-proxy) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/configurable-http-proxy.svg)](https://anaconda.org/conda-forge/configurable-http-proxy) |
 
 Installing configurable-http-proxy
 ==================================
