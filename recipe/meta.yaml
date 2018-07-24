@@ -2,7 +2,7 @@
 {% set version = "3.1.0" %}
 {% set node_version = os.environ.get('NODEJS_VERSION') or '>=6,<9' %}
 {% set node_major = node_version.split('.')[0] %}
-{% set build = 1 %}
+{% set build = 2 %}
 
 package:
   name: {{ name }}
