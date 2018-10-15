@@ -1,8 +1,8 @@
 {% set name = "configurable-http-proxy" %}
-{% set version = "3.1.0" %}
+{% set version = "4.0.1" %}
 {% set node_version = os.environ.get('NODEJS_VERSION') or '6.*' %}
 {% set node_major = node_version.split('.')[0] %}
-{% set build = 2 %}
+{% set build = 0 %}
 
 package:
   name: {{ name }}
@@ -11,7 +11,7 @@ package:
 source:
   fn: {{ name }}-{{ version }}.tar.gz
   url: https://registry.npmjs.org/{{ name }}/-/{{ name }}-{{ version }}.tgz
-  sha256: eb41627ed15505261dbbb48eb4b9f1c6cd31a884b0f1afa9001a671b67262ad0
+  sha256: 20394d53dddb89f8f9459ce3536dd1c5fc9780c4faa7bb3fa2518d1805ddc1bb
 
 build:
   number: {{ build }}
