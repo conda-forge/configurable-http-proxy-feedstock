@@ -14,9 +14,76 @@ Summary: node-http-proxy plus a REST API
 Current build status
 ====================
 
-[![Linux](https://img.shields.io/circleci/project/github/conda-forge/configurable-http-proxy-feedstock/master.svg?label=Linux)](https://circleci.com/gh/conda-forge/configurable-http-proxy-feedstock)
-[![OSX](https://img.shields.io/travis/conda-forge/configurable-http-proxy-feedstock/master.svg?label=macOS)](https://travis-ci.org/conda-forge/configurable-http-proxy-feedstock)
-[![Windows](https://img.shields.io/appveyor/ci/conda-forge/configurable-http-proxy-feedstock/master.svg?label=Windows)](https://ci.appveyor.com/project/conda-forge/configurable-http-proxy-feedstock/branch/master)
+
+<table><tr>
+    <td>Appveyor</td>
+    <td>
+      <a href="https://ci.appveyor.com/project/conda-forge/configurable-http-proxy-feedstock/branch/master">
+        <img alt="windows" src="https://img.shields.io/appveyor/ci/conda-forge/configurable-http-proxy-feedstock/master.svg?label=Windows">
+      </a>
+    </td>
+  </tr>
+    
+  <tr>
+    <td>Azure</td>
+    <td>
+      <details>
+        <summary>
+          <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=4648&branchName=master">
+            <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/configurable-http-proxy-feedstock?branchName=master">
+          </a>
+        </summary>
+        <table>
+          <thead><tr><th>Variant</th><th>Status</th></tr></thead>
+          <tbody><tr>
+              <td>linux_node6</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=4648&branchName=master">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/configurable-http-proxy-feedstock?branchName=master&jobName=linux&configuration=linux_node6" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>linux_node8</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=4648&branchName=master">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/configurable-http-proxy-feedstock?branchName=master&jobName=linux&configuration=linux_node8" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>osx_node6</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=4648&branchName=master">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/configurable-http-proxy-feedstock?branchName=master&jobName=osx&configuration=osx_node6" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>osx_node8</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=4648&branchName=master">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/configurable-http-proxy-feedstock?branchName=master&jobName=osx&configuration=osx_node8" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>win_node6</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=4648&branchName=master">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/configurable-http-proxy-feedstock?branchName=master&jobName=win&configuration=win_node6" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>win_node8</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=4648&branchName=master">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/configurable-http-proxy-feedstock?branchName=master&jobName=win&configuration=win_node8" alt="variant">
+                </a>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </details>
+    </td>
+  </tr>
+</table>
 
 Current release info
 ====================
@@ -49,6 +116,8 @@ conda search configurable-http-proxy --channel conda-forge
 
 About conda-forge
 =================
+
+[![Powered by NumFOCUS](https://img.shields.io/badge/powered%20by-NumFOCUS-orange.svg?style=flat&colorA=E1523D&colorB=007D8A)](http://numfocus.org)
 
 conda-forge is a community-led conda channel of installable packages.
 In order to provide high-quality builds, the process has been automated into the
@@ -104,3 +173,10 @@ In order to produce a uniquely identifiable distribution:
  * If the version of a package **is** being increased, please remember to return
    the [``build/number``](https://conda.io/docs/user-guide/tasks/build-packages/define-metadata.html#build-number-and-string)
    back to 0.
+
+Feedstock Maintainers
+=====================
+
+* [@minrk](https://github.com/minrk/)
+* [@willingc](https://github.com/willingc/)
+
