@@ -10,10 +10,6 @@ jobs:
   strategy:
     maxParallel: 8
     matrix:
-      linux_aarch64_node10:
-        CONFIG: linux_aarch64_node10
-        UPLOAD_PACKAGES: True
-        DOCKER_IMAGE: condaforge/linux-anvil-aarch64
       linux_aarch64_node11:
         CONFIG: linux_aarch64_node11
         UPLOAD_PACKAGES: True
