@@ -20,7 +20,9 @@ source:
 build:
   number: {{ build }}
   string: "node{{ node }}_h{{ PKG_HASH }}_{{ build }}"
-  script: npm pack; npm install -g {{name}}-{{version}}.tgz  # [not win]
+  script:
+    - npm pack  # [not win]
+    - NPM_CONFIG_USERCONFIG=/tmp/nonexistentrc npm install -g {{name}}-{{version}}.tgz  # [not win]
 
 requirements:
   host:
