@@ -10,8 +10,16 @@ jobs:
   strategy:
     maxParallel: 4
     matrix:
-      win_:
-        CONFIG: win_
+      win_node10:
+        CONFIG: win_node10
+        CONDA_BLD_PATH: D:\\bld\\
+        UPLOAD_PACKAGES: False
+      win_node11:
+        CONFIG: win_node11
+        CONDA_BLD_PATH: D:\\bld\\
+        UPLOAD_PACKAGES: False
+      win_node12:
+        CONFIG: win_node12
         CONDA_BLD_PATH: D:\\bld\\
         UPLOAD_PACKAGES: False
   steps:
