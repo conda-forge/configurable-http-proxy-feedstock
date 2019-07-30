@@ -2,6 +2,12 @@
 {% set version = "4.1.0" %}
 {% set build = 2 %}
 
+{% if not node %}
+{# rerender doesn't always pull node value from conda_build_config on first pass #}
+{# this value will never be used in a real build #}
+{% set node = 1 %}
+{% endif %}
+
 package:
   name: {{ name }}
   version: {{ version }}
