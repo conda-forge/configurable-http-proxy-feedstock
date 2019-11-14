@@ -16,10 +16,10 @@ Current build status
 
 
 <table><tr>
-    <td>Appveyor</td>
+    <td>Drone</td>
     <td>
-      <a href="https://ci.appveyor.com/project/conda-forge/configurable-http-proxy-feedstock/branch/master">
-        <img alt="windows" src="https://img.shields.io/appveyor/ci/conda-forge/configurable-http-proxy-feedstock/master.svg?label=Windows">
+      <a href="https://cloud.drone.io/conda-forge/configurable-http-proxy-feedstock">
+        <img alt="linux" src="https://img.shields.io/drone/build/conda-forge/master.svg?label=Linux">
       </a>
     </td>
   </tr>
@@ -69,7 +69,12 @@ Current build status
       </details>
     </td>
   </tr>
-![ppc64le disabled](https://img.shields.io/badge/ppc64le-disabled-lightgrey.svg)
+  <tr>
+    <td>Linux_ppc64le</td>
+    <td>
+      <img src="https://img.shields.io/badge/ppc64le-disabled-lightgrey.svg" alt="ppc64le disabled">
+    </td>
+  </tr>
 </table>
 
 Current release info
