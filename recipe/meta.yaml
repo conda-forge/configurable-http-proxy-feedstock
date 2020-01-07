@@ -1,8 +1,12 @@
 {% set name = "configurable-http-proxy" %}
 {% set version = "4.2.0" %}
-{% set node_version = '11.*' %}
-{% set node_major = node_version.split('.')[0] %}
-{% set build = 0 %}
+{% set build = 1 %}
+
+{% if not node %}
+{# rerender doesn't always pull node value from conda_build_config on first pass #}
+{# this value will never be used in a real build #}
+{% set node = 1 %}
+{% endif %}
 
 package:
   name: {{ name }}
@@ -15,18 +19,21 @@ source:
 
 build:
   number: {{ build }}
-  string: "node{{node_major}}_{{ build}}"
-  script: npm pack; npm install -g {{name}}-{{version}}.tgz  # [not win]
+  string: "node{{ node }}_h{{ PKG_HASH }}_{{ build }}"
+  script:
+    - npm pack  # [not win]
+    - NPM_CONFIG_USERCONFIG=/tmp/nonexistentrc npm install -g {{name}}-{{version}}.tgz  # [not win]
 
 requirements:
-  build:
-    - nodejs {{node_version}}
+  host:
+    - nodejs {{ node }}.*
   run:
-    - nodejs {{node_version}}
+    - nodejs {{ node }}.*
 
 test:
   commands:
     - configurable-http-proxy -h
+    - test -f $PREFIX/bin/configurable-http-proxy  # [not win]
 
 about:
   home: https://github.com/jupyterhub/configurable-http-proxy
