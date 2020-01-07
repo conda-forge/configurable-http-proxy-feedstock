@@ -10,14 +10,6 @@ jobs:
   strategy:
     maxParallel: 8
     matrix:
-      linux_aarch64_node11:
-        CONFIG: linux_aarch64_node11
-        UPLOAD_PACKAGES: True
-        DOCKER_IMAGE: condaforge/linux-anvil-aarch64
-      linux_aarch64_node12:
-        CONFIG: linux_aarch64_node12
-        UPLOAD_PACKAGES: True
-        DOCKER_IMAGE: condaforge/linux-anvil-aarch64
       linux_node10:
         CONFIG: linux_node10
         UPLOAD_PACKAGES: True
@@ -41,7 +33,8 @@ jobs:
 
   - script: |
         export CI=azure
-        .azure-pipelines/run_docker_build.sh
+        export GIT_BRANCH=$BUILD_SOURCEBRANCHNAME
+        .scripts/run_docker_build.sh
     displayName: Run docker build
     env:
       BINSTAR_TOKEN: $(BINSTAR_TOKEN)
