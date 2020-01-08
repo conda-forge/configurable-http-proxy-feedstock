@@ -1,6 +1,6 @@
 {% set name = "configurable-http-proxy" %}
 {% set version = "4.2.0" %}
-{% set build = 1 %}
+{% set build = 2 %}
 
 {% if not node %}
 {# rerender doesn't always pull node value from conda_build_config on first pass #}
@@ -34,6 +34,7 @@ test:
   commands:
     - configurable-http-proxy -h
     - test -f $PREFIX/bin/configurable-http-proxy  # [not win]
+    - if not exist %PREFIX%\\configurable-http-proxy exit 1    # [win]
 
 about:
   home: https://github.com/jupyterhub/configurable-http-proxy
