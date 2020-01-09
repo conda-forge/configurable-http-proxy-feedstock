@@ -5,4 +5,4 @@ channel_targets:
 docker_image:
 - condaforge/linux-anvil-comp7
 node:
-- '11'
+- '13'
