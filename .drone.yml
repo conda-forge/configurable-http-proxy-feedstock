@@ -1,6 +1,6 @@
 ---
 kind: pipeline
-name: linux_aarch64_node11
+name: linux_aarch64_node12
 
 platform:
   os: linux
@@ -10,7 +10,7 @@ steps:
 - name: Install and build
   image: condaforge/linux-anvil-aarch64
   environment:
-    CONFIG: linux_aarch64_node11
+    CONFIG: linux_aarch64_node12
     UPLOAD_PACKAGES: True
     PLATFORM: linux-aarch64
     BINSTAR_TOKEN:
@@ -26,7 +26,7 @@ steps:
 
 ---
 kind: pipeline
-name: linux_aarch64_node12
+name: linux_aarch64_node13
 
 platform:
   os: linux
@@ -36,7 +36,7 @@ steps:
 - name: Install and build
   image: condaforge/linux-anvil-aarch64
   environment:
-    CONFIG: linux_aarch64_node12
+    CONFIG: linux_aarch64_node13
     UPLOAD_PACKAGES: True
     PLATFORM: linux-aarch64
     BINSTAR_TOKEN:

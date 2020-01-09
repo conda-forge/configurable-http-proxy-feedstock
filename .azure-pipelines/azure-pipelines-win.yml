@@ -14,12 +14,12 @@ jobs:
         CONFIG: win_node10
         CONDA_BLD_PATH: D:\\bld\\
         UPLOAD_PACKAGES: True
-      win_node11:
-        CONFIG: win_node11
-        CONDA_BLD_PATH: D:\\bld\\
-        UPLOAD_PACKAGES: True
       win_node12:
         CONFIG: win_node12
+        CONDA_BLD_PATH: D:\\bld\\
+        UPLOAD_PACKAGES: True
+      win_node13:
+        CONFIG: win_node13
         CONDA_BLD_PATH: D:\\bld\\
         UPLOAD_PACKAGES: True
   steps:

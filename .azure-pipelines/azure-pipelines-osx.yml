@@ -13,11 +13,11 @@ jobs:
       osx_node10:
         CONFIG: osx_node10
         UPLOAD_PACKAGES: True
-      osx_node11:
-        CONFIG: osx_node11
-        UPLOAD_PACKAGES: True
       osx_node12:
         CONFIG: osx_node12
+        UPLOAD_PACKAGES: True
+      osx_node13:
+        CONFIG: osx_node13
         UPLOAD_PACKAGES: True
 
   steps:
