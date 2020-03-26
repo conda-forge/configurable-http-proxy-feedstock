@@ -1,6 +1,6 @@
 {% set name = "configurable-http-proxy" %}
-{% set version = "4.2.0" %}
-{% set build = 2 %}
+{% set version = "4.2.1" %}
+{% set build = 0 %}
 
 {% if not node %}
 # rerender doesn't always pull node value from conda_build_config on first pass
@@ -15,11 +15,11 @@ package:
 source:
   fn: {{ name }}-{{ version }}.tar.gz
   url: https://registry.npmjs.org/{{ name }}/-/{{ name }}-{{ version }}.tgz
-  sha256: cafaf0b070b1513f1da95fbec5d2950ba2ceba9d4fe6dce9affd4156b3b07e50
+  sha256: f40c055b881805636f874fea4a9e5af37ba375d04b2e67f11e32acc8addf3f6f
 
 build:
   number: {{ build }}
-  string: "node{{ node }}_h{{ PKG_HASH }}_{{ build }}"
+  string: node{{ node }}_h{{ PKG_HASH }}_{{ build }}
   script:
     - npm pack  # [not win]
     - NPM_CONFIG_USERCONFIG=/tmp/nonexistentrc npm install -g {{name}}-{{version}}.tgz  # [not win]
