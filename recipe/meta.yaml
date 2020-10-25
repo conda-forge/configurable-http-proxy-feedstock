@@ -1,5 +1,5 @@
 {% set name = "configurable-http-proxy" %}
-{% set version = "4.2.1" %}
+{% set version = "4.2.2" %}
 {% set build = 0 %}
 
 {% if not node %}
@@ -15,14 +15,14 @@ package:
 source:
   fn: {{ name }}-{{ version }}.tar.gz
   url: https://registry.npmjs.org/{{ name }}/-/{{ name }}-{{ version }}.tgz
-  sha256: f40c055b881805636f874fea4a9e5af37ba375d04b2e67f11e32acc8addf3f6f
+  sha256: 96c01179201db1715be8c95de71e6300e7750230a721b04815bc32f1e2c94420
 
 build:
   number: {{ build }}
   string: node{{ node }}_h{{ PKG_HASH }}_{{ build }}
   script:
     - npm pack  # [not win]
-    - NPM_CONFIG_USERCONFIG=/tmp/nonexistentrc npm install -g {{name}}-{{version}}.tgz  # [not win]
+    - NPM_CONFIG_USERCONFIG=/tmp/nonexistentrc npm install -g {{ name }}-{{ version }}.tgz  # [not win]
 
 requirements:
   host:
