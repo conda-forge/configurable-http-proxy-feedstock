@@ -12,3 +12,5 @@ docker_image:
 - condaforge/linux-anvil-aarch64
 node:
 - '13'
+target_platform:
+- linux-aarch64
