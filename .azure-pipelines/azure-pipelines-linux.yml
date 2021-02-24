@@ -8,16 +8,16 @@ jobs:
     vmImage: ubuntu-16.04
   strategy:
     matrix:
-      linux_64_node10:
-        CONFIG: linux_64_node10
-        UPLOAD_PACKAGES: 'True'
-        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-comp7
       linux_64_node12:
         CONFIG: linux_64_node12
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-comp7
-      linux_64_node13:
-        CONFIG: linux_64_node13
+      linux_64_node14:
+        CONFIG: linux_64_node14
+        UPLOAD_PACKAGES: 'True'
+        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-comp7
+      linux_64_node15:
+        CONFIG: linux_64_node15
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-comp7
   timeoutInMinutes: 360

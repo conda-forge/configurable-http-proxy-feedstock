@@ -3,6 +3,6 @@ channel_sources:
 channel_targets:
 - conda-forge main
 node:
-- '10'
+- '14'
 target_platform:
 - win-64
