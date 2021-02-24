@@ -3,7 +3,7 @@ About configurable-http-proxy
 
 Home: https://github.com/jupyterhub/configurable-http-proxy
 
-Package license: BSD 3-Clause
+Package license: BSD-3-Clause
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/configurable-http-proxy-feedstock/blob/master/LICENSE.txt)
 
@@ -41,13 +41,6 @@ Current build status
         <table>
           <thead><tr><th>Variant</th><th>Status</th></tr></thead>
           <tbody><tr>
-              <td>linux_64_node12</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=4648&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/configurable-http-proxy-feedstock?branchName=master&jobName=linux&configuration=linux_64_node12" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
               <td>linux_64_node14</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=4648&branchName=master">
