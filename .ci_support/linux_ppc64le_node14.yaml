@@ -7,6 +7,6 @@ channel_targets:
 docker_image:
 - quay.io/condaforge/linux-anvil-ppc64le
 node:
-- '12'
+- '14'
 target_platform:
 - linux-ppc64le

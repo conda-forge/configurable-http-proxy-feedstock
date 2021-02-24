@@ -3,13 +3,11 @@ About configurable-http-proxy
 
 Home: https://github.com/jupyterhub/configurable-http-proxy
 
-Package license: BSD 3-Clause
+Package license: BSD-3-Clause
 
-Feedstock license: BSD 3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/configurable-http-proxy-feedstock/blob/master/LICENSE.txt)
 
 Summary: node-http-proxy plus a REST API
-
-
 
 Current build status
 ====================
@@ -26,7 +24,7 @@ Current build status
     <td>Drone</td>
     <td>
       <a href="https://cloud.drone.io/conda-forge/configurable-http-proxy-feedstock">
-        <img alt="linux" src="https://img.shields.io/drone/build/conda-forge/master.svg?label=Linux">
+        <img alt="linux" src="https://img.shields.io/drone/build/conda-forge/configurable-http-proxy-feedstock/master.svg?label=Linux">
       </a>
     </td>
   </tr>
@@ -43,6 +41,20 @@ Current build status
         <table>
           <thead><tr><th>Variant</th><th>Status</th></tr></thead>
           <tbody><tr>
+              <td>linux_64_node14</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=4648&branchName=master">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/configurable-http-proxy-feedstock?branchName=master&jobName=linux&configuration=linux_64_node14" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>linux_64_node15</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=4648&branchName=master">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/configurable-http-proxy-feedstock?branchName=master&jobName=linux&configuration=linux_64_node15" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
               <td>linux_aarch64_node12</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=4648&branchName=master">
@@ -50,38 +62,17 @@ Current build status
                 </a>
               </td>
             </tr><tr>
-              <td>linux_aarch64_node13</td>
+              <td>linux_aarch64_node14</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=4648&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/configurable-http-proxy-feedstock?branchName=master&jobName=linux&configuration=linux_aarch64_node13" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/configurable-http-proxy-feedstock?branchName=master&jobName=linux&configuration=linux_aarch64_node14" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>linux_node10</td>
+              <td>linux_aarch64_node15</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=4648&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/configurable-http-proxy-feedstock?branchName=master&jobName=linux&configuration=linux_node10" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>linux_node12</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=4648&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/configurable-http-proxy-feedstock?branchName=master&jobName=linux&configuration=linux_node12" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>linux_node13</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=4648&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/configurable-http-proxy-feedstock?branchName=master&jobName=linux&configuration=linux_node13" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>linux_ppc64le_node10</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=4648&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/configurable-http-proxy-feedstock?branchName=master&jobName=linux&configuration=linux_ppc64le_node10" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/configurable-http-proxy-feedstock?branchName=master&jobName=linux&configuration=linux_aarch64_node15" alt="variant">
                 </a>
               </td>
             </tr><tr>
@@ -92,52 +83,59 @@ Current build status
                 </a>
               </td>
             </tr><tr>
-              <td>linux_ppc64le_node13</td>
+              <td>linux_ppc64le_node14</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=4648&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/configurable-http-proxy-feedstock?branchName=master&jobName=linux&configuration=linux_ppc64le_node13" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/configurable-http-proxy-feedstock?branchName=master&jobName=linux&configuration=linux_ppc64le_node14" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>osx_node10</td>
+              <td>linux_ppc64le_node15</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=4648&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/configurable-http-proxy-feedstock?branchName=master&jobName=osx&configuration=osx_node10" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/configurable-http-proxy-feedstock?branchName=master&jobName=linux&configuration=linux_ppc64le_node15" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>osx_node12</td>
+              <td>osx_64_node12</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=4648&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/configurable-http-proxy-feedstock?branchName=master&jobName=osx&configuration=osx_node12" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/configurable-http-proxy-feedstock?branchName=master&jobName=osx&configuration=osx_64_node12" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>osx_node13</td>
+              <td>osx_64_node14</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=4648&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/configurable-http-proxy-feedstock?branchName=master&jobName=osx&configuration=osx_node13" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/configurable-http-proxy-feedstock?branchName=master&jobName=osx&configuration=osx_64_node14" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>win_node10</td>
+              <td>osx_64_node15</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=4648&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/configurable-http-proxy-feedstock?branchName=master&jobName=win&configuration=win_node10" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/configurable-http-proxy-feedstock?branchName=master&jobName=osx&configuration=osx_64_node15" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>win_node12</td>
+              <td>win_64_node12</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=4648&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/configurable-http-proxy-feedstock?branchName=master&jobName=win&configuration=win_node12" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/configurable-http-proxy-feedstock?branchName=master&jobName=win&configuration=win_64_node12" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>win_node13</td>
+              <td>win_64_node14</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=4648&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/configurable-http-proxy-feedstock?branchName=master&jobName=win&configuration=win_node13" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/configurable-http-proxy-feedstock?branchName=master&jobName=win&configuration=win_64_node14" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>win_64_node15</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=4648&branchName=master">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/configurable-http-proxy-feedstock?branchName=master&jobName=win&configuration=win_64_node15" alt="variant">
                 </a>
               </td>
             </tr>
