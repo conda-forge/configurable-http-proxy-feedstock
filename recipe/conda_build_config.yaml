@@ -10,4 +10,4 @@ cdt_name:                                 # [linux64]
 node:
   - 15
   - 14
-  - 12  # [not linux64] # can't figure out how to build just this one with cos6
+  - 12

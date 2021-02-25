@@ -8,6 +8,10 @@ jobs:
     vmImage: ubuntu-16.04
   strategy:
     matrix:
+      linux_64_node12:
+        CONFIG: linux_64_node12
+        UPLOAD_PACKAGES: 'True'
+        DOCKER_IMAGE: condaforge/linux-anvil-cos7-x86_64
       linux_64_node14:
         CONFIG: linux_64_node14
         UPLOAD_PACKAGES: 'True'
