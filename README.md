@@ -118,6 +118,27 @@ Current build status
                 </a>
               </td>
             </tr><tr>
+              <td>osx_arm64_node12</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=4648&branchName=master">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/configurable-http-proxy-feedstock?branchName=master&jobName=osx&configuration=osx_arm64_node12" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>osx_arm64_node14</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=4648&branchName=master">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/configurable-http-proxy-feedstock?branchName=master&jobName=osx&configuration=osx_arm64_node14" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>osx_arm64_node15</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=4648&branchName=master">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/configurable-http-proxy-feedstock?branchName=master&jobName=osx&configuration=osx_arm64_node15" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
               <td>win_64_node12</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=4648&branchName=master">
