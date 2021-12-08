@@ -1,6 +1,6 @@
 {% set name = "configurable-http-proxy" %}
 {% set version = "4.5.0" %}
-{% set build = 1 %}
+{% set build = 2 %}
 
 {% if not node %}
 # rerender doesn't always pull node value from conda_build_config on first pass
