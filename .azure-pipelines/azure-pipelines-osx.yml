@@ -17,12 +17,6 @@ jobs:
       osx_64_node15:
         CONFIG: osx_64_node15
         UPLOAD_PACKAGES: 'True'
-      osx_arm64_node12:
-        CONFIG: osx_arm64_node12
-        UPLOAD_PACKAGES: 'True'
-      osx_arm64_node14:
-        CONFIG: osx_arm64_node14
-        UPLOAD_PACKAGES: 'True'
       osx_arm64_node15:
         CONFIG: osx_arm64_node15
         UPLOAD_PACKAGES: 'True'
