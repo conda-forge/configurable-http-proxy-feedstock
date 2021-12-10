@@ -26,9 +26,9 @@ build:
 
 requirements:
   host:
-    - nodejs {{ nodejs }}.*
+    - nodejs
   run:
-    - nodejs {{ nodejs }}.*
+    - nodejs
 
 test:
   commands:
