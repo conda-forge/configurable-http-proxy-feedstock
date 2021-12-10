@@ -2,10 +2,10 @@
 {% set version = "4.5.0" %}
 {% set build = 1 %}
 
-{% if not node %}
+{% if not nodejs %}
 # rerender doesn't always pull node value from conda_build_config on first pass
 # this value will never be used in a real build
-{% set node = 1 %}
+{% set nodejs = 1 %}
 {% endif %}
 
 package:
@@ -19,16 +19,16 @@ source:
 
 build:
   number: {{ build }}
-  string: node{{ node }}_h{{ PKG_HASH }}_{{ build }}
+  string: node{{ nodejs }}_h{{ PKG_HASH }}_{{ build }}
   script:
     - npm pack  # [not win]
     - NPM_CONFIG_USERCONFIG=/tmp/nonexistentrc npm install -g {{ name }}-{{ version }}.tgz  # [not win]
 
 requirements:
   host:
-    - nodejs {{ node }}.*
+    - nodejs {{ nodejs }}.*
   run:
-    - nodejs {{ node }}.*
+    - nodejs {{ nodejs }}.*
 
 test:
   commands:
