@@ -8,6 +8,6 @@ cdt_name:                                 # [linux64]
   - cos7                                  # [linux64]
 
 nodejs:
-  - 15
+  - 17
+  - 16
   - 14
-  - 12
