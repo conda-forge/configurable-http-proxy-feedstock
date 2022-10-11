@@ -1,6 +1,13 @@
-cmd /c %PREFIX%\npm.cmd config list
-rem clear npm install prefix
-set NPM_CONFIG_PREFIX=
-cmd /c %PREFIX%\npm.cmd config list
-cmd /c %PREFIX%\npm.cmd pack
-cmd /c %PREFIX%\npm.cmd install -g %PKG_NAME%-%PKG_VERSION%.tgz
+@echo on
+
+call yarn pack || goto :error
+if errorlevel 1 exit 1
+
+call yarn licenses generate-disclaimer > ThirdPartyLicenses.txt
+if errorlevel 1 exit 1
+
+call npm config set prefix %BUILD_PREFIX%
+if errorlevel 1 exit 1
+
+call npm install --userconfig nonexistentrc --global %PKG_NAME%-v%PKG_VERSION%.tgz
+if errorlevel 1 exit 1
