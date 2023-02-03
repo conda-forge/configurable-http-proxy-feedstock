@@ -90,6 +90,20 @@ Current build status
                 </a>
               </td>
             </tr><tr>
+              <td>osx_arm64_nodejs16</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=4648&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/configurable-http-proxy-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_arm64_nodejs16" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>osx_arm64_nodejs18</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=4648&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/configurable-http-proxy-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_arm64_nodejs18" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
               <td>win_64_nodejs14</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=4648&branchName=main">
