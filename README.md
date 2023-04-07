@@ -1,11 +1,11 @@
-About configurable-http-proxy
-=============================
+About configurable-http-proxy-feedstock
+=======================================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/configurable-http-proxy-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/jupyterhub/configurable-http-proxy
 
 Package license: BSD-3-Clause
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/configurable-http-proxy-feedstock/blob/main/LICENSE.txt)
 
 Summary: node-http-proxy plus a REST API
 
