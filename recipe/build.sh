@@ -12,6 +12,7 @@ rm $PREFIX/bin/node
 ln -s $BUILD_PREFIX/bin/node $PREFIX/bin/node
 
 yarn pack
+yarn licenses list
 yarn licenses generate-disclaimer > ThirdPartyLicenses.txt
 NPM_CONFIG_USERCONFIG=/tmp/nonexistentrc
 
