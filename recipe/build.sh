@@ -11,7 +11,6 @@ export npm_config_build_from_source=true
 rm $PREFIX/bin/node
 ln -s $BUILD_PREFIX/bin/node $PREFIX/bin/node
 
-yarn install
 yarn pack
 yarn licenses generate-disclaimer --production > ThirdPartyLicenses.txt
 
