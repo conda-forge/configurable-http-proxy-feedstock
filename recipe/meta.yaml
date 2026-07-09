@@ -1,5 +1,5 @@
 {% set name = "configurable-http-proxy" %}
-{% set version = "5.2.0" %}
+{% set version = "5.3.0" %}
 
 package:
   name: {{ name }}
@@ -7,10 +7,10 @@ package:
 
 source:
   url: https://registry.npmjs.org/{{ name }}/-/{{ name }}-{{ version }}.tgz
-  sha256: 2080724f7bc32390ede56626beee87fce562138022e44c99976576be64febaa0
+  sha256: 8960d148a9f471f9ca9d48cefdffa92bd8ab6685af51b54b4dad993aac9d80bb
 
 build:
-  number: 1
+  number: 0
 
 requirements:
   build:
